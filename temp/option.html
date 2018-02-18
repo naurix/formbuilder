@@ -1,0 +1,22 @@
+<script type="text/javascript">
+	function add_option_temp(type){
+		var txt = '';
+		if(type === 'select'){
+			txt += `<ul class="select_list removable"></ul>`;
+		}
+
+		if(type === 'checkbox' || type === 'radio'){
+			txt += `<div class="select_list"></div>`;
+		}
+		txt += `
+			<div class="input-group select_add_list removable">
+			   <input type="text" class="form-control"  placeholder="Add Option">
+			   <span class="input-group-addon add_select_option" title="Add" data-option-text="${type}">
+			   	<i class="fa fa-plus"></i>
+			   </span>
+			</div>
+		`;
+
+		return txt;
+	}
+</script>
