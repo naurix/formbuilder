@@ -1,4 +1,4 @@
-# form-builder
+# Naurix Form-Builder
 An easy to use **Jquery** and **Bootstrap** form builder. This is basically a javascript script that helps you create a quick bootstrap form tags.  It will structure the form tags with bootstrap classes to enable you plug and play.
 
 ## Installation
