@@ -100,7 +100,7 @@ function make_input_field(el){
 	var id = make_id(6);
 	var input = '<div class="cnt_input_box form-group">';
 		input += '<label for="'+id+'" data-field-type="input" class="in_field">';
-		input += '<span class="field_title" contenteditable>Input Field</span>';
+		input += '<span class="field_title" contenteditable>Input Field [edit]</span>';
 		input += in_field_edit;
 		input += '</label>';
 		input += '<input type="text" name="'+id+'" class="form-control" placeholder="">';
@@ -113,7 +113,7 @@ function make_textarea_field(el){
 	var id = make_id(6);
 	var input = '<div class="cnt_input_box form-group">';
 		input += '<label for="'+id+'" data-field-type="text" class="in_field">';
-		input += '<span class="field_title" contenteditable>Note Field</span>';
+		input += '<span class="field_title" contenteditable>Note Field [edit]</span>';
 		input += in_field_edit;
 		input += '</label>';
 		input += '<textarea type="text" name="'+id+'" class="form-control" placeholder=""></textarea>';
@@ -126,7 +126,7 @@ function make_select_field(el){
 	var id = make_id(6);
 	var input = '<div class="cnt_input_box form-group">';
 		input += '<label for="'+id+'" data-field-type="select" class="in_field">';
-		input += '<span class="field_title" contenteditable>Select Field</span>';
+		input += '<span class="field_title" contenteditable>Select Field [edit]</span>';
 		input += in_field_edit;
 		input += '</label>';
 		input += add_option_temp('select');
@@ -142,7 +142,7 @@ function make_checkbox_field(el){
 	var id = make_id(6);
 	var input = '<div class="cnt_input_box form-group">';
 		input += '<label for="'+id+'" data-field-type="checkbox" class="in_field">';
-		input += '<span class="field_title" contenteditable>Checkbox Field</span>';
+		input += '<span class="field_title" contenteditable>Checkbox Field [edit]</span>';
 		input += in_field_edit;
 		input += '</label>';
 		input +=  add_option_temp('checkbox');
@@ -155,7 +155,7 @@ function make_radio_field(el){
 	var id = make_id(6);
 	var input = '<div class="cnt_input_box form-group">';
 		input += '<label for="'+id+'" data-field-type="radio" class="in_field">';
-		input += '<span class="field_title" contenteditable>Radio Field</span>';
+		input += '<span class="field_title" contenteditable>Radio Field [edit]</span>';
 		input += in_field_edit;
 		input += '</label>';
 		input +=  add_option_temp('radio');
