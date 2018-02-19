@@ -4,8 +4,13 @@ An easy to use **Jquery** and **Bootstrap** form builder. This is basically a ja
 ## Installation
 Either clone or download the zipped file.
 
-## Usage
+## Requirements
+This project requires [Jquery](https://jquery.org), [Bootstrap 3](https://getbootstrap.com) and optionally add [Font Awesome](https://fontawesome.com) icons.
+
+
+## How to 
 1. Download the project 
+2. Add the **dist/naurix.formbuilder.css** and **dist/naurix.formbuilder.js** to your project
 2. Open it with a browser, chrome preferablly
 3. Click the add group button
 4. Select Columns
@@ -21,3 +26,6 @@ This project uses html5 [contenteditable](https://developer.mozilla.org/en-US/do
 3. Convert the project to React and Vue
 4. Add a code unminify to the generated code
 5. Make the project npm installable
+
+## License
+The Naurix Form-Builder is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
