@@ -1,5 +1,5 @@
 # Naurix Form-Builder
-An easy to use **Jquery** and **Bootstrap** form builder. This is basically a javascript script that helps you create a quick bootstrap form tags.  It will structure the form tags with bootstrap classes to enable you plug and play.
+An easy to use **Jquery** and **Bootstrap** form builder. This is basically a javascript script that helps you create a quick bootstrap form elements. It will structure the form tags with bootstrap class(es) to enable you plug into any project. Also, can be used for application with dynamic input templating.
 
 ## Installation
 Either clone or download the zipped file.
@@ -9,6 +9,8 @@ Either clone or download the zipped file.
 2. Open it with a browser, chrome preferablly
 3. Click the add group button
 4. Select Columns
+5. Add fields
+6. When done adding form element, either hit the view html or preview
 
 ## Please Note
 This project uses html5 [contenteditable](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable). Please make sure your browser supports this.  
